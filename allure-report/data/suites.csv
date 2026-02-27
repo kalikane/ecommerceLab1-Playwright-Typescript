@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","50393","soumission avec numéro de carte invalide — le paiement est refusé","authenticated","2026-02-27","passed","2026-02-27","checkout avec données invalides","checkout/invalid-checkout.spec.ts","",""
+"","4526","créer le compte et sauvegarder la session","setup","2026-02-27","passed","2026-02-27","","global-setup.spec.ts","",""
+"","11141","parcours complet : ajout panier → inscription → commande → vérification compte","unauthenticated","2026-02-27","passed","2026-02-27","","purchase-flow.spec.ts","",""
+"","3027","ajouter le produit 1 au panier et vérifier sa présence","unauthenticated","2026-02-27","passed","2026-02-27","","cart/add-product.spec.ts","",""
+"","3616","modifier la quantité du produit 1 dans le panier","unauthenticated","2026-02-27","passed","2026-02-27","","cart/update-quantity.spec.ts","",""
+"","3548","supprimer le produit 1 du panier et vérifier que le panier est vide","unauthenticated","2026-02-27","passed","2026-02-27","","cart/remove-product.spec.ts","",""
+"","2624","soumission du formulaire de livraison vide — les champs requis bloquent la progression","authenticated","2026-02-27","passed","2026-02-27","checkout avec données invalides","checkout/invalid-checkout.spec.ts","",""

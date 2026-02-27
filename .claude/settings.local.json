@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit)",
+      "Bash(node -e \"const p = require\\(''@typescript-eslint/eslint-plugin''\\); console.log\\(Object.keys\\(p.configs\\)\\)\")",
+      "Bash(node -e \"const p = require\\(''@typescript-eslint/eslint-plugin''\\); const c = p.configs[''flat/recommended'']; c.forEach\\(\\(obj,i\\) => console.log\\(i, JSON.stringify\\(obj.files\\)\\)\\)\")"
+    ]
+  }
+}
